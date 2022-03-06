@@ -1,0 +1,14 @@
+CRIANDO PROJETO COM .NET 5.0
+dotnet new mvc -o ApiAuth -f net5.0
+
+
+-------------------------------------
+
+INSTALANDO PACKAGE DE AUTENTICACAO DO ASPNET CORE
+dotnet add package Microsoft.AspNetCore.Authentication
+
+
+----------------------------------------------------------
+
+adiciona o bearer
+dotnet add package Microsoft.AspNetCore.Authentication.JwtBearer --version 3.0
